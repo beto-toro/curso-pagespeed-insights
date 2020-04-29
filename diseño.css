@@ -12,7 +12,7 @@ background gris = #1b2127
 celeste= #026fff */
 
 body {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Source Sans Pro", system-ui;
   margin: 0;
 }
 
@@ -22,7 +22,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Fjalla one", sans-serif;
+  font-family: "Fjalla one", system-ui;
   font-weight: normal;
   /*font-style: italic;*/
 }
@@ -33,6 +33,7 @@ h1 {
   letter-spacing: -0.2px;
   color: white;
   margin: 0;
+  max-width: 500px;
   /*text-transform: capitalize;
   text-decoration: dashed;*/
 }
@@ -43,7 +44,7 @@ h1 strong {
 h2 {
   color: #026fff;
   text-transform: uppercase;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Source Sans Pro", system-ui;
   font-weight: bold;
   font-size: 24px;
   margin-bottom: 40px;
@@ -101,7 +102,7 @@ h2 {
   font-size: 20px;
 }
 .project strong {
-  font-family: "Fjalla one", sans-serif;
+  font-family: "Fjalla one", system-ui;
 }
 /* .project_date
 {
@@ -314,7 +315,7 @@ figure {
 }
 
 .form_email h3 {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Source Sans Pro", system-ui;
 }
 
 .container {
