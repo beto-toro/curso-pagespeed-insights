@@ -256,11 +256,11 @@ figure {
   padding: 0 10px;
 }
 
-.flexbox {
+/* .flexbox {
   display: flex;
-  /* flex-wrap: nowrap; */
+  flex-wrap: nowrap;
   flex-wrap: wrap;
-  /* flex-direction: column; */
+  flex-direction: column;
 }
 
 .box {
@@ -269,7 +269,7 @@ figure {
   border: 1px solid red;
   flex-shrink: 0;
   margin: 5px;
-}
+} */
 
 .footer {
   color: white;
@@ -284,9 +284,9 @@ figure {
   vertical-align: middle;
 }
 
-.footer i {
+/* .footer i {
   color: white;
-}
+} */
 
 /* .footer div 
 {
@@ -349,15 +349,15 @@ figure {
   margin: 0 10px;
 }
 
-.social_link {
+/* .social_link {
   display: inline-block;
   width: 50px;
   height: 50px;
   margin: 0 10px;
   background-size: 50px 50px;
-}
+} */
 
-.social_link.twitter {
+/* .social_link.twitter {
   background-image: url("/imagenes/twitter.svg");
 }
 .social_link.facebook {
@@ -368,7 +368,7 @@ figure {
 }
 .social_link.github {
   background-image: url("/imagenes/github.svg");
-}
+} */
 
 .form_email input {
   border-color: gray;
